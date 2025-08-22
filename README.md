@@ -88,7 +88,9 @@ and artificial intelligence 🖥️.
 
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
 
-<!-- RETROACHIEVEMENTS:START --><!-- RETROACHIEVEMENTS:END -->
+<!-- RETROACHIEVEMENTS:START -->
+🏆 Mario is Level 23, Luigi is Level 24, exploring ocean floor area.
+<!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
 
