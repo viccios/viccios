@@ -1,0 +1,42 @@
+name: Get RetroAchievements rich presence
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  get-retroachievements-rich-presence:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      RETROACHIEVEMENTS_WEB_API_KEY: ${{ secrets.RETROACHIEVEMENTS_WEB_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run update script
+        run: npm run start
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "br.viniciusnunes@gmail.com"
+          git config --local user.name "Vinícius Nunes de Oliveira"
+          git add README.md
+          git commit -m "chore(readme): update RetroAchievements rich presence" || echo "No changes to commit"
+          git push

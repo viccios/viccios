@@ -40,6 +40,7 @@
 </p>
 
 ## 👀 About Me
+
 Hello, my name is Vinícius 👋. I am a technology enthusiast, constantly seeking ways to enhance my skills.
 I began studying programming through robotics 🤖 when I was around 15 years old. Furthermore, I participated in the
 theoretical category of the Brazilian Robotics Olympiad (OBR) for two consecutive years, achieving
@@ -84,7 +85,10 @@ and artificial intelligence 🖥️.
 ---
 
 ## 👾 Retro Games
+
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
+
+<!-- RETROACHIEVEMENTS:START --><!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
 

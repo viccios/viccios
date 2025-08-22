@@ -1,0 +1,31 @@
+{
+	"name": "viccios",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/getRetroAchievementsRichPresence.ts",
+		"format": "npx @biomejs/biome format --write .",
+		"lint": "npx @biomejs/biome lint --write .",
+		"check": "npx @biomejs/biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/viccios/viccios.git"
+	},
+	"keywords": [],
+	"author": "Vinícius Nunes de Oliveira",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/viccios/viccios/issues"
+	},
+	"homepage": "https://github.com/viccios/viccios#readme",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"@types/node": "^24.3.0"
+	},
+	"dependencies": {
+		"@retroachievements/api": "^2.6.0"
+	}
+}
