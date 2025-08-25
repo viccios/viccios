@@ -89,7 +89,7 @@ and artificial intelligence 🖥️.
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
 
 <!-- RETROACHIEVEMENTS:START -->
-🏆 Mario is Level 23, Luigi is Level 24, exploring ocean floor area.
+🏆 Young Link is in Gohma's Lair [❤️3] [🕷️3/100]
 <!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
