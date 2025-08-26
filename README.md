@@ -88,9 +88,7 @@ and artificial intelligence 🖥️.
 
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
 
-<!-- RETROACHIEVEMENTS:START -->
-🏆 Young Link is in the Guard House [❤️4] [🕷️4/100]
-<!-- RETROACHIEVEMENTS:END -->
+<!-- RETROACHIEVEMENTS:START --><!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
 
