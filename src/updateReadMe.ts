@@ -16,7 +16,7 @@ export async function updateReadMe({
 		/(<!-- RETROACHIEVEMENTS:START -->)[\s\S]*?(<!-- RETROACHIEVEMENTS:END -->)/;
 	const updatedReadMe = readMeContents.replace(
 		regex,
-		`$1\nLast seen in: ${lastSeenIn}\n\n🏆 ${richPresenceMsg}\n$2`,
+		`$1\n🕹 Last seen in: ${lastSeenIn}\n\n🏆 ${richPresenceMsg}\n$2`,
 	);
 
 	await writeFile(readMePath, updatedReadMe, 'utf8');

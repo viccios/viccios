@@ -88,11 +88,7 @@ and artificial intelligence 🖥️.
 
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
 
-<!-- RETROACHIEVEMENTS:START -->
-Last seen in: The Legend of Zelda: Ocarina of Time
-
-🏆 Young Link is in the Guard House [❤️4] [🕷️4/100]
-<!-- RETROACHIEVEMENTS:END -->
+<!-- RETROACHIEVEMENTS:START --><!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
 
