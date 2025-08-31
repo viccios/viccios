@@ -1,5 +1,11 @@
-import { buildAuthorization, getUserProfile } from '@retroachievements/api';
-import updateReadMe from './updateReadMe.ts';
+import {
+	buildAuthorization,
+	getUserProfile,
+	getUserRecentlyPlayedGames,
+} from '@retroachievements/api';
+import { updateReadMe } from './updateReadMe.ts';
+
+const LAST_PLAYED_GAME = 0;
 
 const username = 'viccios';
 const webApiKey = String(process.env.RETROACHIEVEMENTS_WEB_API_KEY);
@@ -10,4 +16,12 @@ const userProfile = await getUserProfile(authorization, {
 	username: 'viccios',
 });
 
-updateReadMe(userProfile.richPresenceMsg);
+const userRecentlyPlayedGames = await getUserRecentlyPlayedGames(
+	authorization,
+	{ username: 'viccios' },
+);
+
+updateReadMe({
+	lastSeenIn: userRecentlyPlayedGames[LAST_PLAYED_GAME].title,
+	richPresenceMsg: userProfile.richPresenceMsg,
+});

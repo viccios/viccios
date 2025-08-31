@@ -1,14 +1,22 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-export default async function updateReadMe(content: string) {
+interface UpdateReadMeArgs {
+	lastSeenIn: string;
+	richPresenceMsg: string;
+}
+
+export async function updateReadMe({
+	lastSeenIn,
+	richPresenceMsg,
+}: UpdateReadMeArgs) {
 	const readMePath = join(import.meta.dirname, '../README.md');
 	const readMeContents = await readFile(readMePath, 'utf8');
 	const regex =
-		/<!-- RETROACHIEVEMENTS:START -->[\s\S]*?<!-- RETROACHIEVEMENTS:END -->/;
+		/(<!-- RETROACHIEVEMENTS:START -->)[\s\S]*?(<!-- RETROACHIEVEMENTS:END -->)/;
 	const updatedReadMe = readMeContents.replace(
 		regex,
-		`<!-- RETROACHIEVEMENTS:START -->\n🏆 ${content}\n<!-- RETROACHIEVEMENTS:END -->`,
+		`$1\nLast seen in: ${lastSeenIn}\n🏆 ${richPresenceMsg}\n$2`,
 	);
 
 	await writeFile(readMePath, updatedReadMe, 'utf8');
