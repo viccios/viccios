@@ -67,8 +67,20 @@ and artificial intelligence 🖥️.
 
 ## 📊 Github Statistics
 
-![viccios's GitHub stats](https://github-readme-stats.vercel.app/api?username=viccios&show_icons=true&theme=chartreuse-dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=viccios&layout=compact&theme=chartreuse-dark)
+<table align="center">
+  <tr>
+    <th>GitHub Stats</th>
+    <th>Most Used Languages</th>
+  </tr>
+  <tr>
+    <td>
+      <img alt="viccios's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=viccios&show_icons=true&theme=chartreuse-dark">
+    </td>
+    <td>
+      <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viccios&layout=compact&theme=chartreuse-dark">
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Tech Stack
 
