@@ -103,7 +103,7 @@ I also enjoy playing classic games! [Take a look at my profile on RetroAchieveme
 <!-- RETROACHIEVEMENTS:START -->
 🕹 Last seen in: The Legend of Zelda: Ocarina of Time
 
-🏆 Playing The Legend of Zelda: Ocarina of Time
+🏆 Young Link is in Dodongo Cavern [❤️4] [🕷️10/100]
 <!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
