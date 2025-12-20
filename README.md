@@ -103,7 +103,7 @@ I also enjoy playing classic games! [Take a look at my profile on RetroAchieveme
 <!-- RETROACHIEVEMENTS:START -->
 🕹 Last seen in: The Legend of Zelda: Ocarina of Time
 
-🏆 Young Link is in Goron City [❤️4] [🕷️10/100]
+🏆 Playing The Legend of Zelda: Ocarina of Time
 <!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
