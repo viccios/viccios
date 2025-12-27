@@ -101,9 +101,9 @@ and artificial intelligence 🖥️.
 I also enjoy playing classic games! [Take a look at my profile on RetroAchievements](https://retroachievements.org/user/viccios).
 
 <!-- RETROACHIEVEMENTS:START -->
-🕹 Last seen in: The Legend of Zelda: Ocarina of Time
+🕹 Last seen in: Chrono Trigger
 
-🏆 Young Link is in Dodongo Cavern [❤️4] [🕷️10/100]
+🏆 Fighting Through Time with  Crono, , and | 💰: 400
 <!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
