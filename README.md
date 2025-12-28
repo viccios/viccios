@@ -103,7 +103,7 @@ I also enjoy playing classic games! [Take a look at my profile on RetroAchieveme
 <!-- RETROACHIEVEMENTS:START -->
 🕹 Last seen in: Chrono Trigger
 
-🏆 Fighting Through Time with  Crono, Robo, and Lucca| 💰: 8471
+🏆 Fighting Through Time with  Crono, Robo, and Lucca| 💰: 15271
 <!-- RETROACHIEVEMENTS:END -->
 
 ## 🟩 Contribution Graph
